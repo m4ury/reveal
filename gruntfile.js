@@ -186,4 +186,6 @@ module.exports = grunt => {
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );
 
+	//grunt.loadNpmTasks('grunt-contrib-watch');
+
 };
